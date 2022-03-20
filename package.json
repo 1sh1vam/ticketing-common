@@ -2,10 +2,15 @@
   "name": "@simtix/ticketing-common",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./buuild/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
   "scripts": {
     "clean": "del ./build/*",
-    "build": "npm run clean && tsc"
+    "build": "npm run clean && tsc",
+    "publish": "npm publish"
   },
   "keywords": [],
   "author": "",
