@@ -2,7 +2,7 @@
   "name": "@simtix/ticketing-common",
   "version": "1.0.0",
   "description": "",
-  "main": "./buuild/index.js",
+  "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "files": [
     "build/**/*"
